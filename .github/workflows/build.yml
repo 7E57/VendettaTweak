@@ -49,5 +49,5 @@ jobs:
       - name: Upload rootless package
         uses: actions/upload-artifact@v3
         with:
-          name: "Rootless package built by ${{ matrix.os }}"
+          name: "Rootless package built by  ${{ matrix.os }}"
           path: ${{ github.workspace }}/packages/*-arm64.deb
